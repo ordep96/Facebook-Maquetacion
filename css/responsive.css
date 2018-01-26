@@ -1,0 +1,52 @@
+
+@media screen and (max-width:576px){
+
+  .wrapper{width:100%;}
+  
+  .container{
+    margin-left:0;
+    margin-top:20px;
+    width:100%;
+  }
+  
+
+  .search{
+    display:none;
+  }
+  
+  .navbar-menu{
+    display:none;
+  }
+
+  .navbar-user li a, .navbar-settings li a{
+    font-size:1.2em;
+  }
+
+  /*ocultamos el sidebar*/
+  #sidebar{display:none;}
+
+  /*redefinimos el grid en vista mobile*/
+  .banner{
+    grid-template-rows:1fr 1fr;
+  }
+  .banner__footer{
+    display:block;
+  }
+
+  .banner__footer .send{
+    width:100%;
+    line-height:2.5em;
+    margin-top:20px;
+  }
+
+
+  /*estilos contenido principal mobile*/
+  .content-news{
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+
+
